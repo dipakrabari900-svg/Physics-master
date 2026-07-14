@@ -1,1 +1,87 @@
+/* Physics Master Professional Theme */
 
+body{
+margin:0;
+padding:0;
+font-family:'Poppins',sans-serif;
+background:#f5f7fb;
+color:#222;
+}
+
+header{
+position:sticky;
+top:0;
+background:#6c2bd9;
+padding:18px 8%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+z-index:999;
+}
+
+.logo{
+font-size:30px;
+font-weight:bold;
+color:#fff;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin-left:25px;
+font-weight:500;
+transition:.3s;
+}
+
+nav a:hover{
+color:#ffd54f;
+}
+
+.hero{
+padding:100px 8%;
+background:linear-gradient(135deg,#6c2bd9,#8b5cf6);
+color:white;
+text-align:center;
+}
+
+.hero h1{
+font-size:60px;
+margin-bottom:20px;
+}
+
+.hero p{
+font-size:20px;
+margin-bottom:30px;
+}
+
+.btn{
+display:inline-block;
+padding:15px 35px;
+background:white;
+color:#6c2bd9;
+border-radius:10px;
+text-decoration:none;
+font-weight:bold;
+transition:.3s;
+}
+
+.btn:hover{
+transform:scale(1.05);
+}
+
+section{
+padding:70px 8%;
+}
+
+h2{
+text-align:center;
+color:#6c2bd9;
+margin-bottom:40px;
+}
+
+footer{
+background:#111827;
+color:white;
+text-align:center;
+padding:25px;
+}
